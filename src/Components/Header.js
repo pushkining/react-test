@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {Navbar, Nav, Container, Button, FormControl, Form,} from "react-bootstrap";
-import logo from './logo192.png';
+import logo from './pushkin_logo1.png';
 import {BrowserRouter as Router, Switch,  Route, Link} from "react-router-dom";
 import Home from '../Pages/Home';
 import About from '../Pages/About';
@@ -13,9 +13,9 @@ class Header extends Component {
                 <Navbar collapseOnSelect  expand="md" variant="dark" bg="dark" >
                    <Container>
                        <Navbar.Brand href="/" >
-                           <img src={logo} height="50" width="50" className="d-inline-block align-top" alt="Logo" />
+                           <img src={logo} height="50" width="50" className="d-inline-block align-top" alt="Logo"/>
                            {" "}
-                           My blog
+                           {/*My blog*/}
                        </Navbar.Brand >
                        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                        <Navbar.Collapse id="responsive-navbar-nav" text="white">

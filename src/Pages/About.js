@@ -28,31 +28,23 @@ class About extends Component {
                             </Nav>
                         </Col>
                         <Col sm={9}>
-                            <Tab.Content>
+                            <Tab.Content className="mt-3" >
                                 <Tab.Pane eventKey="first" >
-                                    <img src="https://lh3.googleusercontent.com/proxy/lNfODakbc8LYD9auOde5mIAg-BjsuxvWNBHOqWA3yIBM0kv6m0DDxFapXa3jBZpQzYe5ZX0zFsIVoYjqVm9oHpViMojVzBbXeZBTWtLcynIE5z2ZZUqqC6B229Q"/>
+                                    <img src="https://lh3.googleusercontent.com/proxy/lNfODakbc8LYD9auOde5mIAg-BjsuxvWNBHOqWA3yIBM0kv6m0DDxFapXa3jBZpQzYe5ZX0zFsIVoYjqVm9oHpViMojVzBbXeZBTWtLcynIE5z2ZZUqqC6B229Q" className="img-fluid"/>
                                     <p>Lorem ipsum dolor sit amet, con.sectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                                 </Tab.Pane>
-                            </Tab.Content>
-                            <Tab.Content>
                                 <Tab.Pane eventKey="second" >
                                     <img src="https://serfcompany.com/wp-content/uploads/2017/03/PHP.png"/>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                                 </Tab.Pane>
-                            </Tab.Content>
-                            <Tab.Content>
                                 <Tab.Pane eventKey="third" >
-                                    <img src="https://miro.medium.com/max/2560/1*f6Bd83Sk8QLl_uhxQV7xlA.jpeg"/>
+                                    <img src="https://www.character.org/wp-content/uploads/2019/01/Digital-Citizenship.jpg" className="img-fluid"/>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                                 </Tab.Pane>
-                            </Tab.Content>
-                            <Tab.Content>
                                 <Tab.Pane eventKey="forth">
-                                    <img src="https://habrastorage.org/getpro/habr/post_images/614/021/db7/614021db760fe042ddbc3a614d933122.png"/>
+                                    <img src="https://kalpeshkathane.files.wordpress.com/2016/08/framework.png?w=500"/>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                                 </Tab.Pane>
-                            </Tab.Content>
-                            <Tab.Content>
                                 <Tab.Pane eventKey="fifth" >
                                     <img src="https://blog.templatetoaster.com/wp-content/uploads/2018/09/Best-PHP-Frameworks.jpg"/>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -60,7 +52,6 @@ class About extends Component {
                             </Tab.Content>
                         </Col>
                     </Row>
-
                 </Tab.Container>
             </Container>
         );
